@@ -7,11 +7,24 @@ This is a distrobox container that has CUPS preinstalled. This container doea no
 First create the container using distrobox
 
 ```bash
-distrobox create -i ghcr.io/ublue-os/arch-distrobox:latest -n cups --init
+distrobox create -i ghcr.io/ublue-os/arch-distrobox:latest -n cups --init -H ~/cups-home
 ```
 
 Enter the container
 
 ```bash
 distrobox enter cups
+```
+
+Update all packages. Paru is already preinstalled.
+
+```bash
+paru
+```
+
+Start some services
+
+```bash
+sudo systemctl enable --now avahi-daemon
+sudo systemctl enable --now cups
 ```
