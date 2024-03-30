@@ -28,3 +28,7 @@ Start some services
 sudo systemctl enable --now avahi-daemon
 sudo systemctl enable --now cups
 ```
+
+## Credits
+
+base arch image: https://github.com/ublue-os/arch-distrobox
