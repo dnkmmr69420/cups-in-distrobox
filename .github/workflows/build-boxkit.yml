@@ -1,4 +1,4 @@
-name: build-boxkit
+name: build-archlinux-cups
 on:
   pull_request:
     branches:
