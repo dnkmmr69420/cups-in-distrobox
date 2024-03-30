@@ -7,7 +7,7 @@ This is a distrobox container that has CUPS preinstalled. This container doea no
 First create the container using distrobox
 
 ```bash
-distrobox create -i ghcr.io/ublue-os/arch-distrobox:latest -n cups --init -H ~/cups-home
+distrobox create -i ghcr.io/dnkmmr69420/archlinux-cups:latest- n cups --init -H ~/cups-home
 ```
 
 Enter the container
