@@ -11,4 +11,4 @@ RUN      pacman -S systemd --noconfirm
 
 RUN      pacman -S cups print-manager system-config-printer nss-mdns ghostscript --noconfirm
 
-RUN      pacman -S okular systemsettings --noconfirm
+RUN      pacman -S okular systemsettings firefox --noconfirm
