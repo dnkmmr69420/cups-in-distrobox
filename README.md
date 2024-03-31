@@ -10,6 +10,12 @@ First create the container using distrobox
 distrobox create -i ghcr.io/dnkmmr69420/archlinux-cups:latest -n cups --init -H ~/.local/share/cups-home -p
 ```
 
+experimental command
+
+```bash
+distrobox create -i ghcr.io/dnkmmr69420/archlinux-cups:latest -n cups -H ~/.local/share/cups-home --init -p --unshare-netns -a "-p 1631:631"
+```
+
 Enter the container
 
 ```bash
