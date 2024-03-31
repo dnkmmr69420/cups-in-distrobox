@@ -29,6 +29,12 @@ sudo systemctl enable --now avahi-daemon
 sudo systemctl enable --now cups
 ```
 
+Run this command in the terminal to start the gui
+
+```bash
+system-config-printer
+```
+
 ## Credits
 
 base arch image: https://github.com/ublue-os/arch-distrobox
